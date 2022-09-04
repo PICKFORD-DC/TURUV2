@@ -1,5 +1,5 @@
 {
-    "name": "eProRtxzy",
+    "name": "RTXZY-MD",
     "version": "2.1.0.6",
     "description": "Customizable WhatsApp Bot",
     "main": "index.js",
@@ -17,13 +17,13 @@
     "keywords": [
         "Mars"
     ],
-    "homepage": "https://github.com/BOTCAHX/Mars",
+    "homepage": "https://github.com/BOTCAHX/RTXZY-MD",
     "author": {
         "name": "Lite"
     },
     "repository": {
         "type": "git",
-        "url": "git+https://github.com/BOTCAHX/Mars.git"
+        "url": "git+https://github.com/BOTCAHX/RTXZY-MD.git"
     },
     "bugs": {
         "url": "https://github.com/BOTCAHX/RTXZY-MD/issues"
