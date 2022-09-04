@@ -20,6 +20,7 @@ global.APIKeys = { // APIKey Here
 }
 
 // Wm untuk stiker
+global.tio = '© Developer'
 global.packname = 'ePro Rtxzy'
 global.author = '© DayDay Happy'
 
