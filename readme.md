@@ -3,9 +3,12 @@
 <h1 align="center">Wahatsapp Bot</h1>
 <p align="center">
 
-<div align="center"><img src="https://raw.githubusercontent.com/BOTCAHX/RTXZY-MD/v3.0/gifs-de-auditoria-23.gif"></div>
+## cara pemasangan 
+<div align="https://telegra.ph/file/e2e09bf026171c05fca2a.jpg"></div>
+<div align="https://telegra.ph/file/e2e09bf026171c05fca2a.jpg"></div>
+<div align="https://telegra.ph/file/c44e9ffce6b6aff679838.jpg"></div>
 </p>
-<h1 align="center">Kasih Star Biar Semangat Recode Nya:v</h1>
+
 
 >
 >
