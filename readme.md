@@ -5,10 +5,11 @@
 
 ## cara pemasangan 
 <div align="https://telegra.ph/file/e2e09bf026171c05fca2a.jpg"></div>
+</p>
 <div align="https://telegra.ph/file/e2e09bf026171c05fca2a.jpg"></div>
+</p>
 <div align="https://telegra.ph/file/c44e9ffce6b6aff679838.jpg"></div>
 </p>
-
 
 >
 >
