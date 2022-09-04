@@ -7,11 +7,22 @@
 <div align="alight">
 <img src="https://telegra.ph/file/e2e09bf026171c05fca2a.jpg" alt="BOTCAHX" width="300" />
 </p>
-<img src="https://telegra.ph/file/e2e09bf026171c05fca2a.jpg" alt="BOTCAHX" width="300" />
+<img src="https://telegra.ph/file/81ddc51daa4136f2ef1ec.jpg" alt="BOTCAHX" width="300" />
 </p>
-<img src="https://telegra.ph/file/c44e9ffce6b6aff679838.jpg" alt="BOTCAHX" width="300" />
+<img src="https://telegra.ph/file/947df98334e86b69d7bc8.jpg" alt="BOTCAHX" width="300" />
 <p/>
 </div>
+
+## Information
+
+> Untuk sessions ada saat kamu sudah run di heroku 
+> scan kode qr di heroku dengan cara open app setelah run
+## Join Group Diskusi
+[![BOT DISCUSSION GROUP](https://img.shields.io/badge/WhatsApp%20Group-25D366?style=for-the-badge&logo=whatsapp&logoColor=white)](https://chat.whatsapp.com/JEDQfzMGZan4HA98wtxsNL) 
+**Markas Para Bot**
+</div>
+
+
 <p align="center">
 <a href="##"><img title="SELF-BOT" src="https://img.shields.io/static/v1?label=package&message=RT-X-MD&color=blue"></a>
 </p>
@@ -56,10 +67,9 @@ src="https://img.shields.io/static/v1?label=click for&message=FREE Apikey&color=
 ![WhatsApp](https://img.shields.io/badge/WhatsApp-43853D?style=for-the-badge&logo=WhatsApp&logoColor=white)
 ![HTML](https://img.shields.io/badge/HTML-43853D?style=for-the-badge&logo=HTML&logoColor=white)
 
-## Information
-
-> Untuk sessions ada saat kamu sudah run di heroku 
-> scan kode qr di heroku dengan cara open app setelah run
+## catatan
+> Bot ini masih beta 
+ 
 ## Join Group Diskusi
 [![BOT DISCUSSION GROUP](https://img.shields.io/badge/WhatsApp%20Group-25D366?style=for-the-badge&logo=whatsapp&logoColor=white)](https://chat.whatsapp.com/JEDQfzMGZan4HA98wtxsNL) 
 **Markas Para Bot**
