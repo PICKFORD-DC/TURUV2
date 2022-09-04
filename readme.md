@@ -1,4 +1,4 @@
-
+> UNTUK PEMASANGAN MASUK KE GC BOT KITA 
 </p>
 <h1 align="center">Wahatsapp Bot</h1>
 <p align="center">
