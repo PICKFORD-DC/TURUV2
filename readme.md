@@ -5,21 +5,22 @@
 
 ## cara pemasangan 
 <div align="alight">
-## step 1
+>> Tampilan saat sudah run dynos 
 <img src="https://telegra.ph/file/e2e09bf026171c05fca2a.jpg" alt="BOTCAHX" width="300" />
 </p>
-## step 2
+>> Tampilan button app
 <img src="https://telegra.ph/file/81ddc51daa4136f2ef1ec.jpg" alt="BOTCAHX" width="300" />
 </p>
-## step 3
+>> Tampilan Qr
 <img src="https://telegra.ph/file/947df98334e86b69d7bc8.jpg" alt="BOTCAHX" width="300" />
 <p/>
 </div>
 
-## Information
+## Penjelasan 
 
-> Untuk sessions ada saat kamu sudah run di heroku 
-> scan kode qr di heroku dengan cara open app setelah run
+> Step pertama aktifkan dynos setelah deploy.
+> Selanjutnya click button open app seperti gambar di atas.
+> Scan QR nya di WhatsApp agar tersambung dengan bot nya.
 ## Join Group Diskusi
 [![BOT DISCUSSION GROUP](https://img.shields.io/badge/WhatsApp%20Group-25D366?style=for-the-badge&logo=whatsapp&logoColor=white)](https://chat.whatsapp.com/JEDQfzMGZan4HA98wtxsNL) 
 **Markas Para Bot**
