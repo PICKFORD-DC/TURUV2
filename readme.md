@@ -5,10 +5,13 @@
 
 ## cara pemasangan 
 <div align="alight">
+## step 1
 <img src="https://telegra.ph/file/e2e09bf026171c05fca2a.jpg" alt="BOTCAHX" width="300" />
 </p>
+## step 2
 <img src="https://telegra.ph/file/81ddc51daa4136f2ef1ec.jpg" alt="BOTCAHX" width="300" />
 </p>
+## step 3
 <img src="https://telegra.ph/file/947df98334e86b69d7bc8.jpg" alt="BOTCAHX" width="300" />
 <p/>
 </div>
