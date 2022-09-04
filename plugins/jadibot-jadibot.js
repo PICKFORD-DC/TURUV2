@@ -1,4 +1,3 @@
-
 import Connection from '../lib/connection.js'
 import Store from '../lib/store.js'
 import qrcode from 'qrcode'
@@ -38,7 +37,6 @@ Scan QR ini untuk jadi bot sementara
 1. Klik titik tiga di pojok kanan atas
 2. Ketuk perangkat tertaut
 3. Scan QR ini 
-
 QR akan Expired !
 `.trim(), m)
         }
@@ -66,9 +64,11 @@ QR akan Expired !
 handler.help = ['jadibot']
 handler.tags = ['jadibot']
 
-handler.command = /^jadibot$/i
+handler.command = /^(jadi(bot)?)$/i
 
-handler.disabled = true
-handler.limit = true
+
+//handler.disabled = true
+handler.owner = false
+handler.limit = false
 
 export default handler
