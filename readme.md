@@ -1,6 +1,6 @@
 >YANG BINGUNG UNTUK PEMASANGAN NYA MASUK KE GC BOT KITA 
 </p>
-<h1 align="center">Wahatsapp Bot</h1>
+<h1 align="center">Whatsapp Bot</h1>
 <p align="center">
 
 ## cara pemasangan 
