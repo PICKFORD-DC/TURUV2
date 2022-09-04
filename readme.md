@@ -6,11 +6,11 @@
 ## cara pemasangan 
 <div align="alight">
 <img src="https://telegra.ph/file/e2e09bf026171c05fca2a.jpg" alt="BOTCAHX" width="300" />
-> Aktifkan dynos terlebih dahulu
+</p>
 <img src="https://telegra.ph/file/e2e09bf026171c05fca2a.jpg" alt="BOTCAHX" width="300" />
-> Open App untuk melihat kode QR 
+</p>
 <img src="https://telegra.ph/file/c44e9ffce6b6aff679838.jpg" alt="BOTCAHX" width="300" />
-> Scan QR nya lalu bot pun online di WhatsApp mu
+<p/>
 </div>
 <p align="center">
 <a href="##"><img title="SELF-BOT" src="https://img.shields.io/static/v1?label=package&message=RT-X-MD&color=blue"></a>
