@@ -40,7 +40,7 @@ const defaultMenu = {
 │ • Uptime: *%uptime (%muptime)*
 │ • Database: %rtotalreg of %totalreg
 ╰────
-%readmore`.trimStart(),
+`.trimStart(),
   header: '╭─「 %category 」',
   body: '│ • %cmd %islimit %isPremium',
   footer: '╰────\n',
@@ -145,11 +145,18 @@ let handler = async (m, { conn, usedPrefix: _p, __dirname }) => {
       readmore: readMore
     }
     text = text.replace(new RegExp(`%(${Object.keys(replace).sort((a, b) => b.length - a.length).join`|`})`, 'g'), (_, name) => '' + replace[name])
-    const pp = await conn.profilePictureUrl(conn.user.jid).catch(_ => './src/avatar_contact.png')
-    conn.sendButton(m.chat, text.trim(), author, pp, [
-      ['Donate', '/donasi'],
-      ['Speed', '/ping']
-    ], m)
+  await conn.relayMessage(m.chat,  {
+    requestPaymentMessage: {
+      currencyCodeIso4217: 'USD',
+      amount1000: 6288282,
+      requestFrom: m.sender,
+      noteMessage: {
+      extendedTextMessage: {
+      text: text.trim(),
+      contextInfo: {
+      externalAdReply: {
+      showAdAttribution: true
+      }}}}}}, {})
   } catch (e) {
     conn.reply(m.chat, 'Maaf, menu sedang error', m)
     throw e
