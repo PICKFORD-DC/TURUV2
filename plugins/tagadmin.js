@@ -28,8 +28,8 @@ const getGroupAdmins = (participants) => {
 	}
 }
 
-handler.menugroup = ['tagadmin']
-handler.tagsgroup = ['group']
+handler.help = ['tagadmin']
+handler.tags = ['group']
 handler.command = /^((tag|list)admins?)$/i
 
 handler.group = true
