@@ -39,7 +39,7 @@ let handler = async (m, { conn, text, usedPrefix, command }) => {
 }
 
 handler.help = ['smeme <teks1>|<teks2>']
-handler.tags = ['tools']
+handler.tags = ['sticker']
 handler.command = /^(s(tic?ker)?meme)$/i
 
 export default handler
