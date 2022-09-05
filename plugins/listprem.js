@@ -4,8 +4,8 @@ let handler = async (m, { conn, isPrems }) => {
 	conn.reply(m.chat, `「 List Premium 」` + `\n` + prem.map(v => '- @' + v.replace(/@.+/, '')).join`\n`, m, { contextInfo: { mentionedJid: prem } })
 }
 
-handler.menugroup = ['listprem']
-handler.tagsgroup = ['group']
+handler.help = ['listprem']
+handler.tags = ['group']
 handler.command = /^(listprem|premlist)$/i
 
 export default handler
