@@ -23,7 +23,7 @@ let handler = async (m, { conn, args, text, usedPrefix, command }) => {
     }
 }
 handler.help = ['ttp','ttp2 -> ttp6','attp','attp2','attp3']
-handler.tags = ['creator']
+handler.tags = ['sticker']
 handler.command = /^((ttp(2|3|4|5|6)?)|(attp(2|3)?))$/i
 
 handler.limit = true
