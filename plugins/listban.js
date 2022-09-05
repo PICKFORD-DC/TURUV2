@@ -28,8 +28,8 @@ let handler = async (m, { conn, isOwner }) => {
     conn.reply(m.chat, caption, m, { contextInfo: { mentionedJid: conn.parseMention(caption) } })
 }
 
-handler.menugroup = ['bannedlist']
-handler.tagsgroup = ['group']
+handler.help = ['bannedlist']
+handler.tags = ['group']
 handler.command = /^(list(ban(ned)?|bloc?k)|(ban(ned)?|bloc?k)list|daftar(ban(ned)?|bloc?k))$/i
 
 export default handler
