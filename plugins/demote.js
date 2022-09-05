@@ -33,8 +33,8 @@ let handler = async (m, { conn, text, args, isOwner, participants }) => {
 	}
 }
 
-handler.menugroup = ['demote @tag']
-handler.tagsgroup = ['group']
+handler.help = ['demote @tag']
+handler.tags = ['group']
 handler.command = /^(demote)$/i
 
 handler.admin = true
