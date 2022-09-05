@@ -18,8 +18,8 @@ let handler = async (m, { conn, args, usedPrefix, command }) => {
 	}
 }
 
-handler.menudownload = ['gitclone']
-handler.tagsdownload = ['search']
+handler.help = ['gitclone']
+handler.tags = ['internet']
 handler.command = /^(gitclone)$/i
 
 handler.premium = false
