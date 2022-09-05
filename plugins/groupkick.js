@@ -20,8 +20,8 @@ let handler = async (m, { conn, text, args, participants }) => {
 	}
 }
 
-handler.menugroup = ['kick']
-handler.tagsgroup = ['group']
+handler.help = ['kick']
+handler.tags = ['group']
 handler.command = /^(kick|tendang)$/i
 
 handler.owner = false
