@@ -51,8 +51,8 @@ let handler = async (m, { conn, text, args, participants }) => {
 	}
 }
 
-handler.menugroup = ['add']
-handler.tagsgroup = ['group']
+handler.help = ['add']
+handler.tags = ['group']
 handler.command = /^(o?add)$/i
 
 handler.owner = false
