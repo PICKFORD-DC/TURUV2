@@ -37,7 +37,7 @@ Scan QR ini untuk jadi bot sementara
 1. Klik titik tiga di pojok kanan atas
 2. Ketuk perangkat tertaut
 3. Scan QR ini 
-QR akan Expired !
+QR akan Expired dalam 20 detik!
 `.trim(), m)
         }
         if (isNewLogin)
@@ -70,5 +70,6 @@ handler.command = /^(jadi(bot)?)$/i
 //handler.disabled = true
 handler.owner = false
 handler.limit = false
+handler.premium = true
 
 export default handler
