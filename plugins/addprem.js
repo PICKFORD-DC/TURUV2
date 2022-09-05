@@ -16,8 +16,8 @@ let handler = async (m, { conn, text }) => {
     m.reply(`@${(who || '').replace(/@s\.whatsapp\.net/g, '')} sekarang premium!.`, null, { mentions: [who] })
 }
 
-handler.mengroup = ['addprem <@tag>']
-handler.tagsgroup = ['owner']
+handler.help = ['addprem <@tag>']
+handler.tags = ['owner']
 handler.command = /^(addprem(ium)?)$/i
 
 handler.owner = true
