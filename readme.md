@@ -21,6 +21,7 @@
 > Step pertama aktifkan dynos setelah deploy.
 > Selanjutnya click button open app seperti gambar di atas.
 > Scan QR nya di WhatsApp agar tersambung dengan bot nya.
+> Sc ini Akan kama Runtime nya bila di railway 
 ## Join Group Diskusi
 [![BOT DISCUSSION GROUP](https://img.shields.io/badge/WhatsApp%20Group-25D366?style=for-the-badge&logo=whatsapp&logoColor=white)](https://chat.whatsapp.com/JEDQfzMGZan4HA98wtxsNL) 
 **Markas Para Bot**
