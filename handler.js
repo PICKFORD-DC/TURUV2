@@ -704,7 +704,7 @@ Untuk mematikan fitur ini, ketik
 
 global.dfail = (type, m, conn) => {
     let msg = {
-        rowner: 'This command can only be used by the *OWNER!*',
+        rowner: 'This command can only be used by the *Owner!*',
         owner: 'This command can only be used by _*Owner Bot*_!',
         mods: 'This command can only be used by _*Moderator*_ !',
         premium: 'This command is only for _*Premium*_ members!',
@@ -712,7 +712,7 @@ global.dfail = (type, m, conn) => {
         private: 'This command can only be used in Private Chat!',
         admin: 'This command is only for *Admin* group!',
         botAdmin: 'Make bot as *Admin* to use this command!',
-        unreg: 'Please register to use this feature by typing:\n\n*#ldaftar name.age*\n\nExample: *#daftar of Humans.16*',
+        unreg: 'Please register to use this feature by typing:\n\n*#daftar name.age*\n\nExample: *#daftar adul.16*',
         restrict: 'This feature is *disabled*!'
     }[type]
     if (msg) return m.reply(msg)
