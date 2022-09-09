@@ -3,7 +3,7 @@ import chalk from 'chalk'
 import { fileURLToPath } from 'url'
 
 global.owner = [
-  ['6282221792667', 'Its Me Owner', true]
+  ['6282221792667', 'TioXd', true] // Masukan nama anda dan nomor anda di sini
   // [owner bukan bot!]
 ] // paste nomor di sini
 global.mods = [] // bantuan?
@@ -20,11 +20,11 @@ global.APIKeys = { // APIKey Here
 }
 
 // Wm untuk stiker
-global.tio = '© TioXd'
-global.packname = 'BotcahX'
-global.author = '© AlwaysTuru'
+global.tio = '© TioXd' // untuk wm di bio
+global.packname = 'BotcahX' // wm sticker 
+global.author = '© AlwaysTuru' // wm sticker 2
 
-global.multiplier = 70 // Semakin Tinggi levelmu semakin naik
+global.multiplier = 69 // Semakin Tinggi levelmu semakin naik
 
 global.rpg = {
   emoticon(string) {
