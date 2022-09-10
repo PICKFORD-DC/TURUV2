@@ -1,0 +1,9 @@
+Jika sudah dapat sesi multiple ganti
+Procfile 
+
+web: node . --server 
+
+ke wroker: node .
+
+biar run nya lama yah :v
+
