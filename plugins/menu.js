@@ -147,8 +147,8 @@ let handler = async (m, { conn, usedPrefix: _p, __dirname }) => {
     text = text.replace(new RegExp(`%(${Object.keys(replace).sort((a, b) => b.length - a.length).join`|`})`, 'g'), (_, name) => '' + replace[name])
   await conn.relayMessage(m.chat,  {
     requestPaymentMessage: {
-      currencyCodeIso4217: 'USD',
-      amount1000: 6288282,
+      currencyCodeIso4217: 'INR',
+      amount1000: 1339889,
       requestFrom: m.sender,
       noteMessage: {
       extendedTextMessage: {
