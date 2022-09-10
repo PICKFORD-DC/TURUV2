@@ -1,6 +1,7 @@
 import db from '../lib/database.js'
 import { promises } from 'fs'
 import { join } from 'path'
+process.env.TZ = 'Asia/Jakarta'
 import { xpRange } from '../lib/levelling.js'
 import { plugins } from '../lib/plugins.js'
 let tags = {
@@ -27,27 +28,31 @@ let tags = {
   'jadibot': 'Jadi Bot',
   'owner': 'Owner',
   'host': 'Host',
+  'search': 'githubdl',
   'advanced': 'Advanced',
   'info': 'Info',
   '': 'No Category',
 }
 const defaultMenu = {
   before: `
-╭───
-│ • Tanggal: *%week, %date*
-│ • Waktu: *%time*
-│
-│ • Uptime: *%uptime (%muptime)*
-│ • Database: %rtotalreg of %totalreg
-╰────
+*═════[ BOT INFO ]═════*
+𖥂 Hai, %name! 👋
+𖥂 Hari: *%week*
+𖥂 Bulan: *%date*
+𖥂 Waktu: *%time*
+𖥂 Uptime: *%uptime (%muptime)*
+𖥂 Database : *%rtotalreg* of *%totalreg* 
+𖥂 Prefix: *[ %p ]*
+ *═════[ INFO  USER ]═════*
+𖥂 Nama: *%name*
+𖥂 Limit: *%limit*
+𖥂 Level: *%level*
+𖥂 XP: *%exp*
 `.trimStart(),
-  header: '╭─「 %category 」',
-  body: '│ • %cmd %islimit %isPremium',
-  footer: '╰────\n',
-  after: `
-*%npmname* | %version
-${'```%npmdesc```'}
-`,
+  header: '*═════[ %category ]═════*',
+  body: '⌬ %cmd %islimit %isPremium',
+  footer: '',
+  after: ``,
 }
 let handler = async (m, { conn, usedPrefix: _p, __dirname }) => {
   try {
@@ -158,7 +163,7 @@ let handler = async (m, { conn, usedPrefix: _p, __dirname }) => {
       showAdAttribution: true
       }}}}}}, {})
   } catch (e) {
-    conn.reply(m.chat, 'Sorry, the menu is in error', m)
+    conn.reply(m.chat, 'Maaf, menu sedang error', m)
     throw e
   }
 }
