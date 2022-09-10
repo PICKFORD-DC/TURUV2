@@ -9,7 +9,7 @@
 
 import fetch from 'node-fetch'
 let handler = async (m, {command, conn, text}) => {
-if (!text) throw `Use :\n*.play2 dj Fungky*\n*.playvid dj Fungky*\n\n*[ .play2 ]* To download audios\n*[ .playvid2 ]* To download videos`
+if (!text) throw `Use :\n*.play2 dj Fungky*\n*.playvid2 dj Fungky*\n\n*[ .play2 ]* To download audios\n*[ .playvid2 ]* To download videos`
 try {
 let res = await fetch(`https://api.lolhuman.xyz/api/ytplay2?apikey=85faf717d0545d14074659ad&query=${text}`)
 if (command == 'play2') {
