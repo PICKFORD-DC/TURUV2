@@ -1,9 +1,10 @@
+!<-------->!
 Jika sudah dapat sesi multiple ganti
 Procfile 
 
 web: node . --server 
 
-ke wroker: node .
+ke worker: node .
 
 biar run nya lama yah :v
-
+!<-------->!
