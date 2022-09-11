@@ -1,5 +1,6 @@
-> YANG BINGUNG UNTUK PEMASANGAN NYA MASUK KE GC BOT KITA 
-> AMBIL SESSION DI HEROKU LALU CHAT DI BOT MU .backup maka bot mu akan mengirim file sesi lalu upload sesi tersebut ke github
+> Instalasi sessions nya cukup chat bot nya saja :v
+> Ambil sesimu dengan ketik .backup maka bot mu akan mengirim file sesi lalu upload sesi tersebut ke github
+> Bila masih bingung masuk grup aja di bawah ada button link
 </p>
 <h1 align="center">Whatsapp Bot</h1>
 <p align="center">
