@@ -20,8 +20,8 @@ global.APIKeys = { // APIKey Here
 }
 
 // Wm untuk stiker
-global.tio = 'Haroon'
-global.packname = '© Haroon'
+global.tio = 'TioXd' // ini adalah autobio 
+global.packname = '© BOTCAHX'
 global.author = 'Botwa'
 
 global.multiplier = 70 // Semakin Tinggi levelmu semakin naik
