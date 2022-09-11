@@ -1,4 +1,5 @@
->YANG BINGUNG UNTUK PEMASANGAN NYA MASUK KE GC BOT KITA 
+> YANG BINGUNG UNTUK PEMASANGAN NYA MASUK KE GC BOT KITA 
+> AMBIL SESSION DI HEROKU LALU CHAT DI BOT MU .backup maka bot mu akan mengirim file sesi lalu upload sesi tersebut ke github
 </p>
 <h1 align="center">Whatsapp Bot</h1>
 <p align="center">
@@ -21,7 +22,11 @@
 > Step pertama aktifkan dynos setelah deploy.
 > Selanjutnya click button open app seperti gambar di atas.
 > Scan QR nya di WhatsApp agar tersambung dengan bot nya.
-> Sc ini Akan kama Runtime nya bila di railway 
+> Setelah scan qr ketik .backup bot akan mengirim -
+> sesi nya lalu ekstrak dan upload ke github 
+> Tujuan nya upload untuk mendapatkan runtime lama dan tidak mengharuskan scan ulang
+
+> Sc ini Akan lama Runtime nya bila di railway 
 ## Join Group Diskusi
 [![BOT DISCUSSION GROUP](https://img.shields.io/badge/WhatsApp%20Group-25D366?style=for-the-badge&logo=whatsapp&logoColor=white)](https://chat.whatsapp.com/JEDQfzMGZan4HA98wtxsNL) 
 **Markas Para Bot**
