@@ -1,7 +1,8 @@
+
 {
-    "name": "RTXZY-MD",
+    "name": "RT-X-MD",
     "version": "2.1.0.6",
-    "description": "Customizable WhatsApp Bot",
+    "description": "",
     "main": "index.js",
     "type": "module",
     "directories": {
@@ -19,18 +20,18 @@
     ],
     "homepage": "https://github.com/BOTCAHX/RTXZY-MD",
     "author": {
-        "name": "Lite"
+        "name": "tio"
     },
     "repository": {
         "type": "git",
-        "url": "git+https://github.com/BOTCAHX/RTXZY-MD.git"
+        "url": "git+https://github.com/RTXZY-MD.git"
     },
     "bugs": {
         "url": "https://github.com/BOTCAHX/RTXZY-MD/issues"
     },
     "license": "GPL-3.0-or-later",
     "dependencies": {
-        "@adiwajshing/baileys": "^4.4.0",
+        "@adiwajshing/baileys": "github:adiwajshing/Baileys",
         "@bochilteam/scraper": "^3.0.0",
         "awesome-phonenumber": "^2.68.0",
         "axios": "^0.24.0",
