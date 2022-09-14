@@ -3,11 +3,11 @@ import chalk from 'chalk'
 import { fileURLToPath } from 'url'
 
 global.owner = [
-  ['6282221792667', 'TioXd', true]
+  ['6281393861695', 'TioXd', true]
 // [owner bukan bot!]
 ] // paste nomor di sini
-global.mods = ['6272221792667'] // bantuan?
-global.prems = ['6272221792667'] // user premium limit tanpa batas 
+global.mods = ['6281393861695'] // bantuan?
+global.prems = ['6281393861695'] // user premium limit tanpa batas 
 global.APIs = { // API Prefix
   // name: 'https://website'
   nrttm: 'https://nurutomo.herokuapp.com',
@@ -19,10 +19,10 @@ global.APIKeys = { // APIKey Here
   'https://api.xteam.xyz': 'NezukoTachibana281207'
 }
 
-// Wm untuk stiker
-global.tio = 'TioXd' // ini adalah autobio 
+// Wm untuk stiker dan autobio
+global.tio = 'TioXd'
 global.packname = '© BOTCAHX'
-global.author = 'Botwa'
+global.author = 'TioXd'
 
 global.multiplier = 70 // Semakin Tinggi levelmu semakin naik
 
