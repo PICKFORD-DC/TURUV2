@@ -8,15 +8,15 @@
 <h1 align="center">Whatsapp Bot</h1>
 <p align="center">
 
-## cara pemasangan 
+## Cara pemasangan di Heroku
 <div align="alight">
->> Tampilan saat sudah run dynos 
+>> Tampilan saat sudah run dynos <<
 <img src="https://telegra.ph/file/e2e09bf026171c05fca2a.jpg" alt="BOTCAHX" width="300" />
 </p>
->> Tampilan button app
+>> Tampilan button app <<
 <img src="https://telegra.ph/file/81ddc51daa4136f2ef1ec.jpg" alt="BOTCAHX" width="300" />
 </p>
->> Tampilan Qr
+>> Tampilan Qr <<
 <img src="https://telegra.ph/file/947df98334e86b69d7bc8.jpg" alt="BOTCAHX" width="300" />
 <p/>
 </div>
