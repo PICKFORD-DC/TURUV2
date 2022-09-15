@@ -2,7 +2,10 @@ FROM node:lts-buster
 
 RUN apt-get update && \
   apt-get install -y \
+  neofetch \
   ffmpeg \
+  wget \
+  yarn \
   imagemagick \
   webp && \
   apt-get upgrade -y && \
@@ -10,10 +13,17 @@ RUN apt-get update && \
 
 COPY package.json .
 
-RUN npm install && npm install qrcode-terminal
+ENV TZ=Asia/Jakarta
+RUN ln -snf /usr/share/zoneinfo/$TZ /etc/localtime && echo $TZ > /etc/timezone
+RUN yarn
+RUN pwd
+RUN ls
 
 COPY . .
 
-EXPOSE 5000
+#RUN npm install pm2 -g
+#ENV PM2_PUBLIC_KEY (isi token pm2)
+#ENV PM2_SECRET_KEY (isi token pm2) 
 
-CMD ["node", "index.js"]
+EXPOSE 5000
+CMD ["pm2-runtime", "index.js"]
