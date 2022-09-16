@@ -1,3 +1,16 @@
+## Panel Pterodaktyl 
+> Daftar panel pterodaktyl agar mendapatkan Runtime 24/7
+ [`Link Panel Register`](https://dash.boxmineworld.com/register?ref=79dl1Bqa)
+
+> Register Dapatakan panel nya
+> Gunakan google translate karena menggunakan bahasa spanyol 
+> User free gunakan settingan Wahatsapp bot 
+Wahatsapp (bot)
+> lalu beli server dengan koin referal nya.
+
+
+
+## penjelasan singkat 
 > Instalasi sessions nya cukup chat bot nya saja :v
 
 > Ambil sesimu dengan ketik .getsesi maka bot mu akan mengirim file sesi lalu upload sesi tersebut ke github
