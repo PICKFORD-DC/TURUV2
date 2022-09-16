@@ -1,8 +1,11 @@
 > Instalasi sessions nya cukup chat bot nya saja :v
-> Ambil sesimu dengan ketik .backup maka bot mu akan mengirim file sesi lalu upload sesi tersebut ke github
+
+> Ambil sesimu dengan ketik .getsesi maka bot mu akan mengirim file sesi lalu upload sesi tersebut ke github
+
 > Bila masih bingung masuk grup aja di bawah ada button link
 
 > Sebelum run baca panduan dlu jangan ngasal
+
 > Sesinya bukan session.json atau session.data.json
 </p>
 <h1 align="center">Whatsapp Bot</h1>
@@ -21,7 +24,7 @@
 <p/>
 </div>
 
-## Penjelasan 
+## Penjelasan gambar di atas
 
 > Step pertama aktifkan dynos setelah deploy.
 > Selanjutnya click button open app seperti gambar di atas.
