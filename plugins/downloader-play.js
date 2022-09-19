@@ -1,3 +1,6 @@
+//awokawok nyoba dlu downloader vercell ngab
+// https://tioxddl.vercel.app/?url=${url}&filter=audioonly&quality=highestaudio&contenttype=audio/mpeg
+
 import fetch from 'node-fetch'
 import { youtubeSearch } from '@bochilteam/scraper'
 
@@ -7,7 +10,7 @@ let handler = async (m, { conn, text, usedPrefix }) => {
   if (!vid) throw 'Video/Audio Tidak Ditemukan'
   let { title, description, thumbnail, videoId, durationH, durationS, viewH, publishedTime } = vid
   let url = 'https://www.youtube.com/watch?v=' + videoId
-  let ytLink = `https://qytdl.herokuapp.com/?url=${url}&filter=audioonly&quality=highestaudio&contenttype=audio/mpeg`
+  let ytLink = `https://tioxddl.vercel.app/?url=${url}&filter=audioonly&quality=highestaudio&contenttype=audio/mpeg`
   let capt = `*Title:* ${title}\n*Published:* ${publishedTime}\n*Duration:* ${durationH}\n*Views:* ${viewH}\n*Url:* ${url}`
   let buttons = [{ buttonText: { displayText: 'Video' }, buttonId: `${usedPrefix}ytv ${url}` }]
   let msg = await conn.sendMessage(m.chat, { image: { url: thumbnail }, caption: capt, footer: '_Audio on progress..._', buttons }, { quoted: m })
