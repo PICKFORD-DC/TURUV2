@@ -20,7 +20,7 @@
         //} else if (!bot.restrict) return m.reply('Owner disable auto kick!')
     //}
     //return !0
-}//
+//}
 
 
 let linkRegex = /chat.whatsapp.com\/([0-9A-Za-z]{20,24})/i
