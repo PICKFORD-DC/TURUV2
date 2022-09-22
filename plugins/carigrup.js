@@ -2,7 +2,7 @@ import fetch from 'node-fetch'
 let handler = async (m, { text, usedPrefix, command }) => {
     if (!text) throw `uhm.. cari apa?\n\ncontoh:\n${usedPrefix + command} mabar`
     
-    let json = await fetch(`https://botcahx-rest-api.herokuapp.com/api/search/linkgroupwa?text=${text}`)
+    let json = await fetch(`https://botcahx-rest-api.up.railway.app/api/search/linkgroupwa?text=${text}`)
         let jsons = await json.json()
         let caption = `*⎔┉━「 ${command} 」━┉⎔*`
         for (let x of jsons.result) {
