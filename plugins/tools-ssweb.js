@@ -5,7 +5,7 @@ let handler = async (m, { conn, command, args }) => {
 
   await m.reply('_Ｌｏａｄｉｎｇ．．._')
   
-   let img = await (await fetch(`https://botcahx-rest-api.herokuapp.com/api/tools/ssweb?link=${args[0]}&full_page=true&fresh=true&output=image&file_type=png&wait_for_event=load`)).buffer()
+   let img = await (await fetch(`https://botcahx-rest-api.up.railway.app/api/tools/ssweb?link=${args[0]}&full_page=true&fresh=true&output=image&file_type=png&wait_for_event=load`)).buffer()
 
   
    conn.sendMessage(m.chat, { image: img, caption: 'Here' }, { quoted: m })
