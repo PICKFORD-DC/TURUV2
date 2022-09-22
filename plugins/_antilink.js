@@ -16,8 +16,8 @@
         //}
         //await conn.sendButton(m.chat, `*Group link detect!*${isBotAdmin ? '' : '\n\n_Bot not admin_  t_t'}`, packname + " - " + author, ['off antilink', '/disable antilink'], m)
         //if (isBotAdmin && bot.restrict) {
-            await conn.groupParticipantsUpdate(m.chat, [m.sender], 'remove')
-        } else if (!bot.restrict) return m.reply('Owner disable auto kick!')
+            //await conn.groupParticipantsUpdate(m.chat, [m.sender], 'remove')
+        //} else if (!bot.restrict) return m.reply('Owner disable auto kick!')
     //}
     //return !0
 }//
