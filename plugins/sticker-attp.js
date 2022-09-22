@@ -3,8 +3,8 @@ import fs from 'fs'
 
 let handler = async (m, { conn, args, text, usedPrefix, command }) => {
     if (!text) throw `Example : ${usedPrefix + command} Lagi Ruwet`
-    const res = `https://botcahx-rest-api.herokuapp.com/api/maker/attp?text=${encodeURIComponent(text)}`
-    const res2 = `https://botcahx-rest-api.herokuapp.com/api/maker/ttp?text=${encodeURIComponent(text)}`
+    const res = `https://botcahx-rest-api.up.railway.app/api/maker/attp?text=${encodeURIComponent(text)}`
+    const res2 = `https://botcahx-rest-api.up.railway.app/api/maker/ttp?text=${encodeURIComponent(text)}`
     let ztick = fs.readFileSync(`./media/sticker/bronya.webp`)
     try {
         if (command == 'attp' || command == 'attp2') {
