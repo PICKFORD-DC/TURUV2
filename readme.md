@@ -7,17 +7,16 @@
 > **Warning**: 
 > Jika kamu menemukan semacam bug, laporkan kepada creator 
 
-```bash
-• Telah dilakukan pengoptimalan kinerja bot dengan menghapus button mengganggu berjalan nya bot
+> Telah dilakukan pengoptimalan kinerja bot dengan menghapus button mengganggu berjalan nya bot
 
-• Kalo Erorr apikey nya beli atau ganti sendiri saja
+> Kalo Erorr apikey nya beli atau ganti sendiri saja
 
-• Masih Pembangunan
+> Masih Pembangunan
 
-• Recode dari base ori bocilgaming 
+> Recode dari base ori bocilgaming 
 
-• Jika kurang faham pemasangan masuk ke gc kita.
-```
+> Jika kurang faham pemasangan masuk ke gc kita.
+
 ## Join Group Diskusi
 [![BOT DISCUSSION GROUP](https://img.shields.io/badge/WhatsApp%20Group-25D366?style=for-the-badge&logo=whatsapp&logoColor=red)](https://chat.whatsapp.com/JEDQfzMGZan4HA98wtxsNL) 
 
