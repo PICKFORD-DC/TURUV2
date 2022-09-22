@@ -13,7 +13,7 @@
 
 > Masih Pembangunan
 
-> Recode dari base ori bocilgaming 
+> Recode dari base ori bochilgaming 
 
 > Jika kurang faham pemasangan masuk ke gc kita.
 
