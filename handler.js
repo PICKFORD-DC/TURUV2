@@ -44,7 +44,7 @@ export async function handler(chatUpdate) {
                 if (!isNumber(user.exp))
                     user.exp = 0
                 if (!isNumber(user.limit))
-                    user.limit = 10
+                    user.limit = 100
                 if (!isNumber(user.lastclaim))
                     user.lastclaim = 0
                 if (!('registered' in user))
@@ -273,7 +273,7 @@ export async function handler(chatUpdate) {
             } else
                 db.data.chats[m.chat] = {
                     isBanned: false,
-                    welcome: false,
+                    welcome: true,
                     detect: false,
                     sWelcome: '',
                     sBye: '',
@@ -281,7 +281,7 @@ export async function handler(chatUpdate) {
                     sDemote: '',
                     delete: true,
                     antiLink: false,
-                    viewonce: false,
+                    viewonce: true,
                     antiToxic: false,
                     expired: 0,
                 }
@@ -294,7 +294,7 @@ export async function handler(chatUpdate) {
                 if (!isNumber(settings.status)) settings.status = 0                
             } else db.data.settings[this.user.jid] = {
                 self: false,
-                autoread: false,
+                autoread: true,
                 restrict: false
             }
         } catch (e) {
