@@ -1,8 +1,7 @@
 [![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/colored.png)](#table-of-contents)
-# Menolak Modar Single Auth 
- 
+# Bot WhatsApp Multiple Auth 
  <p align="center">
-<img width="" src="https://img.shields.io/github/repo-size/BOTCAHX/RTXZY-MD?color=red&label=Repo%20Size&style=for-the-badge&logo=appveyor">
+<img width="" src="https://img.shields.io/github/repo-size/BOTCAHX/RT-X-MD?color=red&label=Repo%20Size&style=for-the-badge&logo=appveyor">
 </p>
 
 > **Warning**: 
@@ -12,10 +11,11 @@
 
 >  Kalo Erorr apikey nya beli atau ganti sendiri saja
 
-> Version v.3.0
+> Masih Pembangunan
 
-> Untuk file session ada di sessiontxzy.data.json, kalo mau run termux isi file itu terlebih dahulu.
+> Recode dari base ori bocilgaming 
 
+> Jika kurang faham pemasangan masuk ke gc kita.
 ## Join Group Diskusi
 [![BOT DISCUSSION GROUP](https://img.shields.io/badge/WhatsApp%20Group-25D366?style=for-the-badge&logo=whatsapp&logoColor=red)](https://chat.whatsapp.com/JEDQfzMGZan4HA98wtxsNL) 
 
@@ -77,7 +77,7 @@ Simple WhatsApp Bot
 
 ## Run On Heroku
 
-Simple WhatsApp Bot
+Simple WhatsApp Multiple Session
 
 [![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/BOTCAHX/RT-X-MD)
 
