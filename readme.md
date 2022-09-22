@@ -1,118 +1,52 @@
-## Panel Pterodaktyl platform
-
-> Daftar panel pterodaktyl agar mendapatkan Runtime 24/7
-
-> [`Link Panel Register`](https://dash.boxmineworld.com)
-
-> [`Panel login`](https://panel.boxmineworld.com)
-
-> Register Dulu & Dapatakan panel nya
-> Gunakan google translate / atau ubah ke english karena bahasa original menggunakan bahasa spanyol 
-> User free gunakan settingan Wahatsapp bot 
-Wahatsapp (bot)
-> lalu beli server dengan koin referal nya.
-
-## Cara penggunaan panel
-> Masuk terlebih dahulu ke panel register
-> Setelah Mendaftar dan mendaftar akun login ke panel
-> Download sc bot mu yg telah di ganti owner & wm
-> Lalu ubah Command ke node index.js
-> jika masih bingung bisa masuk ke gc gua
-
-> [`Group Discussion`](https://chat.whatsapp.com/JEDQfzMGZan4HA98wtxsNL)
-
+[![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/colored.png)](#table-of-contents)
+# Menolak Modar Single Auth 
+ 
+ <p align="center">
+<img width="" src="https://img.shields.io/github/repo-size/BOTCAHX/RTXZY-MD?color=red&label=Repo%20Size&style=for-the-badge&logo=appveyor">
 </p>
 
+> **Warning**: 
+> Jika kamu menemukan semacam bug, laporkan kepada creator 
 
-## penjelasan singkat 
-> Instalasi sessions nya cukup chat bot nya saja :v
+> Telah dilakukan pengoptimalan kinerja bot dengan menghapus button mengganggu berjalan nya bot
 
-> Ambil sesimu dengan ketik .getsesi maka bot mu akan mengirim file sesi lalu upload sesi tersebut ke github
+>  Kalo Erorr apikey nya beli atau ganti sendiri saja
 
-> Bila masih bingung masuk grup aja di bawah ada button link
+> Version v.3.0
 
-> Sebelum run baca panduan dlu jangan ngasal
+> Untuk file session ada di sessiontxzy.data.json, kalo mau run termux isi file itu terlebih dahulu.
 
-> Sesinya bukan session.json atau session.data.json
-</p>
-<h1 align="center">Whatsapp Bot</h1>
-<p align="center">
-
-## Cara pemasangan di Heroku
-<div align="alight">
->> Tampilan saat sudah run dynos <<
-<img src="https://telegra.ph/file/e2e09bf026171c05fca2a.jpg" alt="BOTCAHX" width="300" />
-</p>
->> Tampilan button app <<
-<img src="https://telegra.ph/file/81ddc51daa4136f2ef1ec.jpg" alt="BOTCAHX" width="300" />
-</p>
->> Tampilan Qr <<
-<img src="https://telegra.ph/file/947df98334e86b69d7bc8.jpg" alt="BOTCAHX" width="300" />
-<p/>
-</div>
-
-## Penjelasan gambar di atas
-
-> Step pertama aktifkan dynos setelah deploy.
-> Selanjutnya click button open app seperti gambar di atas.
-> Scan QR nya di WhatsApp agar tersambung dengan bot nya.
-> Setelah scan qr ketik .backup bot akan mengirim -
-> sesi nya lalu ekstrak dan upload ke github 
-> Tujuan nya upload untuk mendapatkan runtime lama dan tidak mengharuskan scan ulang
-
-> Sc ini Akan lama Runtime nya bila di railway 
 ## Join Group Diskusi
-[![BOT DISCUSSION GROUP](https://img.shields.io/badge/WhatsApp%20Group-25D366?style=for-the-badge&logo=whatsapp&logoColor=white)](https://chat.whatsapp.com/JEDQfzMGZan4HA98wtxsNL) 
-**Markas Para Bot**
-</div>
+[![BOT DISCUSSION GROUP](https://img.shields.io/badge/WhatsApp%20Group-25D366?style=for-the-badge&logo=whatsapp&logoColor=red)](https://chat.whatsapp.com/JEDQfzMGZan4HA98wtxsNL) 
 
+## Install for termux
 
-<p align="center">
-<a href="##"><img title="SELF-BOT" src="https://img.shields.io/static/v1?label=package&message=RT-X-MD&color=blue"></a>
-</p>
-<p align="center">
-  <a href="https://github.com/BOTCAHX/RT-X-MD"><img title="Author" src="https://img.shields.io/badge/Author-Team-blue.svg?style=for-the-badge&logo=github" /></a>
-</p>
-<p align="center">
-<a href="https://botcahx-rest-api.herokuapp.com"><img title="mengapi" 
-src="https://img.shields.io/static/v1?label=click for&message=FREE Apikey&color=orange"></a>
-<!--<div>https://botcahx-rest-api.herokuapp.com/</div>-->
+```bash
+> termux-setup-storage
+> pkg update && pkg upgrade
+> pkg install git
+> pkg install nodejs
+> pkg install bash
+> pkg install ffmpeg
+> pkg install libwebp
+> git clone  https://github.com/BOTCAHX/RT-X-MD 
+> cd RT-X-MD 
+> npm i
+> node index.js
 
-  
-<a href="https://botcahx-rest-api.herokuapp.com"><img src="https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fbotcahx-rest-api.herokuapp.com%2Fhit-counter&count_bg=%23E20D0D&title_bg=%230C15DB&icon=heroku.svg&icon_color=%23E7E7E7&title=Hits+Today&edge_flat=false"/></a>
-<a href="https://visitor-badge.glitch.me/badge?page_id=BOTCAHX/RT-X-MD"><img title="Visitor" src="https://visitor-badge.glitch.me/badge?page_id=BOTCAHX/RT-X-MD"></a>
-<a href="https://github.com/BOTCAHX/RT-X-MD/network/members"><img title="Forks" src="https://img.shields.io/github/forks/BOTCAHX/RT-X-MD?label=Forks&color=blue&style=flat-square"></a>
-<a href="https://github.com/BOTCAHX/RT-X-MD/watchers"><img title="Watchers" src="https://img.shields.io/github/watchers/BOTCAHX/RT-X-MD?label=Watchers&color=green&style=flat-square"></a>
-<a href="https://github.com/BOTCAHX/RT-X-MD/stargazers"><img title="Stars" src="https://img.shields.io/github/stars/BOTCAHX/RT-X-MD?label=Stars&color=yellow&style=flat-square"></a>
-<a href="https://github.com/BOTCAHX/RT-X-MD/graphs/contributors"><img title="Contributors" src="https://img.shields.io/github/contributors/BOTCAHX/RT-X-MD?label=Contributors&color=blue&style=flat-square"></a>
-<a href="https://github.com/BOTCAHX/RT-X-MD/issues"><img title="Issues" src="https://img.shields.io/github/issues/BOTCAHX/RT-X-MD?label=Issues&color=success&style=flat-square"></a>
-<a href="https://github.com/BOTCAHX/RT-X-MD/issues?q=is%3Aissue+is%3Aclosed"><img title="Issues" src="https://img.shields.io/github/issues-closed/BOTCAHX/RT-X-MD?label=Issues&color=red&style=flat-square"></a>
-<a href="https://github.com/BOTCAHX/RT-X-MD/pulls"><img title="Pull Request" src="https://img.shields.io/github/issues-pr/BOTCAHX/RT-X-MD?label=PullRequest&color=success&style=flat-square"></a>
-<a href="https://github.com/BOTCAHX/RT-X-MD/pulls?q=is%3Apr+is%3Aclosed"><img title="Pull Request" src="https://img.shields.io/github/issues-pr-closed/BOTCAHX/RT-X-MD?label=PullRequest&color=red&style=flat-square"></a>
-<a href="https://github.com/BOTCAHX/RT-X-MD"><img title="Open Source" src="https://badges.frapsoft.com/os/v2/open-source.svg?v=103"></a>
-<a href="https://github.com/BOTCAHX/RT-X-MD/"><img title="Size" src="https://img.shields.io/github/repo-size/BOTCAHX/RT-X-MD?style=flat-square&color=green"></a>
-<a href="https://hits.seeyoufarm.com"><img src="https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fgithub.com%2Fzeeoneofc%2FAlphabot-Md&count_bg=%2379C83D&title_bg=%23555555&icon=probot.svg&icon_color=%2300FF6D&title=hits&edge_flat=false"/></a>
-<a href="https://github.com/BOTCAHX/RT-X-MD/graphs/commit-activity"><img height="20" src="https://img.shields.io/badge/Maintained%3F-yes-green.svg"></a>&nbsp;&nbsp;
+## untuk Sdcard (File yang Sudah Di Download)
+> cd /sdcard
+> cp -r RT-X-MD  $HOME
+> cd RT-X-MD 
+> npm i
+> node index.js
+```
 
-</p>
+## Run On Heroku
 
+Simple WhatsApp Bot
 
-## Platform 
-
-![Python](https://img.shields.io/badge/python-43853D?style=for-the-badge&logo=python&logoColor=white)
-![NodeJS](https://img.shields.io/badge/Node.js-43853D?style=for-the-badge&logo=node.js&logoColor=white)
-![Javascript](https://img.shields.io/badge/javascript-43853D?style=for-the-badge&logo=javascript&logoColor=white)
-![typescript](https://img.shields.io/badge/typescript-43853D?style=for-the-badge&logo=typescript&logoColor=white)
-![mongodb](https://img.shields.io/badge/mongodb-43853D?style=for-the-badge&logo=mongodb&logoColor=white)
-![Heroku](https://img.shields.io/badge/heroku-43853D?style=for-the-badge&logo=heroku&logoColor=white)
-![npm](https://img.shields.io/badge/npm-43853D?style=for-the-badge&logo=npm&logoColor=white)
-![github](https://img.shields.io/badge/github-43853D?style=for-the-badge&logo=github&logoColor=white)
-![Apikey](https://img.shields.io/badge/apikey-43853D?style=for-the-badge&logo=apikey&logoColor=white)
-![WhatsApp](https://img.shields.io/badge/WhatsApp-43853D?style=for-the-badge&logo=WhatsApp&logoColor=white)
-![HTML](https://img.shields.io/badge/HTML-43853D?style=for-the-badge&logo=HTML&logoColor=white)
-
-## catatan
-> Bot ini masih beta 
+[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/BOTCAHX/RT-X-MD)
  
 ## Join Group Diskusi
 [![BOT DISCUSSION GROUP](https://img.shields.io/badge/WhatsApp%20Group-25D366?style=for-the-badge&logo=whatsapp&logoColor=white)](https://chat.whatsapp.com/JEDQfzMGZan4HA98wtxsNL) 
@@ -147,19 +81,6 @@ Simple WhatsApp Bot
 
 [![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/BOTCAHX/RT-X-MD)
 
-## UNTUK PENGGUNA RAILWAY
-
-[![Deploy on Railway](https://railway.app/button.svg)](https://railway.app/new/template?template=https%3A%2F%2Fgithub.com%BOTCAHX%RT-X-MD)
-
-## FOR OKTETO
-
-* Okteto [`Click Here go to website`](https://okteto.com)
-
-```bash
-Login with your github
-Click Launch Dev Environment
-Choose your repo
-```
 ## UNTUK PENGGUNA WINDOWS/VPS/RDP
 
 * Unduh & Instal Git [`Klik Disini`](https://git-scm.com/downloads)
