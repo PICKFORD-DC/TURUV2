@@ -1,3 +1,5 @@
+// Ubah Foto ada di url bawah bang
+
 import db from '../lib/database.js'
 import { promises } from 'fs'
 import { join } from 'path'
@@ -35,23 +37,25 @@ let tags = {
 }
 const defaultMenu = {
   before: `
-*═════[ BOT INFO ]═════*
-𖥂 Hai, %name! 👋
-𖥂 Hari: *%week*
-𖥂 Bulan: *%date*
-𖥂 Waktu: *%time*
-𖥂 Uptime: *%uptime (%muptime)*
-𖥂 Database : *%rtotalreg* of *%totalreg* 
-𖥂 Prefix: *[ %p ]*
- *═════[ INFO  USER ]═════*
-𖥂 Nama: *%name*
-𖥂 Limit: *%limit*
-𖥂 Level: *%level*
-𖥂 XP: *%exp*
+╭─「 *BOT INFO* 」
+│𖥂 Hai, %name! 👋
+│𖥂 Hari: *%week*
+│𖥂 Bulan: *%date*
+│𖥂 Waktu: *%time*
+│𖥂 Uptime: *%uptime (%muptime)*
+│𖥂 Database : *%rtotalreg* of *%totalreg* 
+│𖥂 Prefix: *[ %p ]*
+╰────
+╭─「 *USER INFO* 」
+│𖥂 Nama: *%name*
+│𖥂 Limit: *%limit*
+│𖥂 Level: *%level*
+│𖥂 XP: *%exp*
+╰────
 `.trimStart(),
-  header: '*═════[ %category ]═════*',
-  body: '⌬ %cmd %islimit %isPremium',
-  footer: '',
+  header: '╭─「 *%category* 」',
+  body: '│𖥂 %cmd %islimit %isPremium',
+  footer: '╰────\n',
   after: ``,
 }
 let handler = async (m, { conn, usedPrefix: _p, __dirname }) => {
@@ -150,18 +154,15 @@ let handler = async (m, { conn, usedPrefix: _p, __dirname }) => {
       readmore: readMore
     }
     text = text.replace(new RegExp(`%(${Object.keys(replace).sort((a, b) => b.length - a.length).join`|`})`, 'g'), (_, name) => '' + replace[name])
-  await conn.relayMessage(m.chat,  {
-    requestPaymentMessage: {
-      currencyCodeIso4217: 'INR',
-      amount1000: 1339889,
-      requestFrom: m.sender,
-      noteMessage: {
-      extendedTextMessage: {
-      text: text.trim(),
-      contextInfo: {
-      externalAdReply: {
-      showAdAttribution: true
-      }}}}}}, {})
+text = text.replace(new RegExp(`%(${Object.keys(replace).sort((a, b) => b.length - a.length).join`|`})`, 'g'), (_, name) => '' + replace[name])
+		const url = 'https://telegra.ph/file/77191dd98b217d2a08fcd.png'
+		conn.sendButton(m.chat, text.trim(), '©' + author, url, [
+			[`Speed`, `.speed`],
+			[`Script`, `.sc`],
+			[`Donasi`, `.donasi`]
+	], false, {
+			asLocation: true
+		})
   } catch (e) {
     conn.reply(m.chat, 'Maaf, menu sedang error', m)
     throw e
