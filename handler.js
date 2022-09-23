@@ -70,7 +70,7 @@ export async function handler(chatUpdate) {
                 if (!('role' in user))
                     user.role = 'Warrior V'
                 if (!('autolevelup' in user))
-                    user.autolevelup = false
+                    user.autolevelup = true
 
                 if (!isNumber(user.money))
                     user.money = 0
@@ -279,7 +279,7 @@ export async function handler(chatUpdate) {
                     sBye: '',
                     sPromote: '',
                     sDemote: '',
-                    delete: true,
+                    delete: false,
                     antiLink: false,
                     viewonce: true,
                     antiToxic: false,
