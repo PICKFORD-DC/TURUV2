@@ -44,7 +44,7 @@ export async function handler(chatUpdate) {
                 if (!isNumber(user.exp))
                     user.exp = 0
                 if (!isNumber(user.limit))
-                    user.limit = 100
+                    user.limit = 10
                 if (!isNumber(user.lastclaim))
                     user.lastclaim = 0
                 if (!('registered' in user))
@@ -70,7 +70,7 @@ export async function handler(chatUpdate) {
                 if (!('role' in user))
                     user.role = 'Warrior V'
                 if (!('autolevelup' in user))
-                    user.autolevelup = true
+                    user.autolevelup = false
 
                 if (!isNumber(user.money))
                     user.money = 0
@@ -273,15 +273,15 @@ export async function handler(chatUpdate) {
             } else
                 db.data.chats[m.chat] = {
                     isBanned: false,
-                    welcome: true,
+                    welcome: false,
                     detect: false,
                     sWelcome: '',
                     sBye: '',
                     sPromote: '',
                     sDemote: '',
-                    delete: false,
+                    delete: true,
                     antiLink: false,
-                    viewonce: true,
+                    viewonce: false,
                     antiToxic: false,
                     expired: 0,
                 }
@@ -294,7 +294,7 @@ export async function handler(chatUpdate) {
                 if (!isNumber(settings.status)) settings.status = 0                
             } else db.data.settings[this.user.jid] = {
                 self: false,
-                autoread: true,
+                autoread: false,
                 restrict: false
             }
         } catch (e) {
