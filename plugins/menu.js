@@ -31,7 +31,7 @@ let tags = {
   'search': 'githubdl',
   'advanced': 'Advanced',
   'info': 'Info',
-  '': 'No Category',
+  'no category': 'No Category',
 }
 const defaultMenu = {
   before: `
