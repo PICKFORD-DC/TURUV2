@@ -44,7 +44,7 @@ export async function handler(chatUpdate) {
                 if (!isNumber(user.exp))
                     user.exp = 0
                 if (!isNumber(user.limit))
-                    user.limit = 10
+                    user.limit = 200
                 if (!isNumber(user.lastclaim))
                     user.lastclaim = 0
                 if (!('registered' in user))
@@ -70,7 +70,7 @@ export async function handler(chatUpdate) {
                 if (!('role' in user))
                     user.role = 'Warrior V'
                 if (!('autolevelup' in user))
-                    user.autolevelup = false
+                    user.autolevelup = true
 
                 if (!isNumber(user.money))
                     user.money = 0
@@ -175,7 +175,7 @@ export async function handler(chatUpdate) {
             } else
                 db.data.users[m.sender] = {
                     exp: 0,
-                    limit: 10,
+                    limit: 200,
                     lastclaim: 0,
                     registered: false,
                     name: m.name,
@@ -187,11 +187,11 @@ export async function handler(chatUpdate) {
                     warn: 0,
                     level: 0,
                     role: 'Warrior V',
-                    autolevelup: false,
+                    autolevelup: true,
 
                     money: 0,
                     health: 100,
-                    limit: 10,
+                    limit: 200,
                     potion: 10,
                     trash: 0,
                     wood: 0,
@@ -249,7 +249,7 @@ export async function handler(chatUpdate) {
                 if (!('isBanned' in chat))
                     chat.isBanned = false
                 if (!('welcome' in chat))
-                    chat.welcome = false
+                    chat.welcome = true
                 if (!('detect' in chat))
                     chat.detect = false
                 if (!('sWelcome' in chat))
@@ -273,7 +273,7 @@ export async function handler(chatUpdate) {
             } else
                 db.data.chats[m.chat] = {
                     isBanned: false,
-                    welcome: false,
+                    welcome: true,
                     detect: false,
                     sWelcome: '',
                     sBye: '',
@@ -281,7 +281,7 @@ export async function handler(chatUpdate) {
                     sDemote: '',
                     delete: true,
                     antiLink: false,
-                    viewonce: false,
+                    viewonce: true,
                     antiToxic: false,
                     expired: 0,
                 }
@@ -289,12 +289,12 @@ export async function handler(chatUpdate) {
             if (typeof settings !== 'object') db.data.settings[this.user.jid] = {}
             if (settings) {
                 if (!('self' in settings)) settings.self = false
-                if (!('autoread' in settings)) settings.autoread = false
+                if (!('autoread' in settings)) settings.autoread = true
                 if (!('restrict' in settings)) settings.restrict = false
                 if (!isNumber(settings.status)) settings.status = 0                
             } else db.data.settings[this.user.jid] = {
                 self: false,
-                autoread: false,
+                autoread: true,
                 restrict: false
             }
         } catch (e) {
@@ -477,15 +477,15 @@ export async function handler(chatUpdate) {
                 m.isCommand = true
                 let xp = 'exp' in plugin ? parseInt(plugin.exp) : 17 // XP Earning per command
                 if (xp > 200)
-                    m.reply('Ngecit -_-') // Hehehe
+                    m.reply('cheat -_-') // Hehehe
                 else
                     m.exp += xp
                 if (!isPrems && plugin.limit && db.data.users[m.sender].limit < plugin.limit * 1) {
-                    this.reply(m.chat, `Limit anda habis, silahkan beli melalui *${usedPrefix}buy*`, m)
+                    this.reply(m.chat, `Your limit is up, please buy via *${usedPrefix}buy*`, m)
                     continue // Limit habis
                 }
                 if (plugin.level > _user.level) {
-                    this.reply(m.chat, `diperlukan level ${plugin.level} untuk menggunakan perintah ini. Level kamu ${_user.level}`, m)
+                    this.reply(m.chat, `level required ${plugin.level} to use this command. Your level ${_user.level}`, m)
                     continue // If the level has not been reached
                 }
                 let extra = {
