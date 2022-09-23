@@ -18,7 +18,7 @@
 > Jika kurang faham pemasangan masuk ke gc kita.
 
 ## Panel Pterodaktyl
-*Login [`Klik Disini`](https://billing.acidicnodes.ml/register?ref=Rtd0mUOK)
+*Login* [`Klik Disini`](https://billing.acidicnodes.ml/register?ref=Rtd0mUOK)
 > Cara pemasangan nya masuk Grup aja kalo tidak mengerti.
 
 
