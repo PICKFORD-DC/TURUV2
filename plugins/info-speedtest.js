@@ -10,7 +10,7 @@ let handler = async (m, { conn}) => {
         o = e
     } finally {
         let { stdout, stderr } = o
-        if (stdout.trim()) conn.sendButton(m.chat, `${htki} SPEEDTEST.NET ${htka}`, stdout, null, [["MENU", ".menu"],["PING", ".ping"]], m)
+        if (stdout.trim()) conn.sendButton(m.chat, `SPEEDTEST.NET`, stdout, null, [["MENU", ".menu"],["PING", ".ping"]], m)
         if (stderr.trim()) m.reply(stderr)
     }
 }
