@@ -6,9 +6,9 @@ let handler = async (m, { conn, args, command, usedPrefix }) => {
     conn.sendFile(m.chat, result.url, 'facebook.mp4', author, m)
   }
 }
-handler.help = ['facebook'].map(v => v + ' <url>')
+handler.help = ['fb2'].map(v => v + ' <url>')
 handler.tags = ['downloader']
-handler.command = /^((facebook|fb)(downloder|dl)?)$/i
+handler.command = /^(fb2)$/i
 
 handler.limit = true
 
