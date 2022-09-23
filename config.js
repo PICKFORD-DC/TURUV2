@@ -3,11 +3,11 @@ import chalk from 'chalk'
 import { fileURLToPath } from 'url'
 
 global.owner = [
-  ['6281393861695', 'TioXd', true]
+  ['6282221792667', 'TioXd', true]
 // [owner bukan bot!]
 ] // paste nomor di sini
-global.mods = ['6281393861695'] // bantuan?
-global.prems = ['6281393861695'] // user premium limit tanpa batas 
+global.mods = ['6282221792667'] // bantuan?
+global.prems = ['6282221792667'] // user premium limit tanpa batas 
 global.APIs = { // API Prefix
   // name: 'https://website'
   nrttm: 'https://nurutomo.herokuapp.com',
