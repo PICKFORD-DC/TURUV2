@@ -16,7 +16,7 @@ const { name, author } = require(join(__dirname, './package.json')) // https://w
 const { say } = cfonts
 const rl = createInterface(process.stdin, process.stdout)
 
-say('TERMUX\nBOT', {
+say('Multi Auth\nWhatsApp Bot', {
   font: 'chrome',
   align: 'center',
   gradient: ['red', 'magenta']
@@ -65,7 +65,7 @@ function start(file) {
     if (code === 0) return
     watchFile(args[0], () => {
       unwatchFile(args[0])
-      start(file)
+      start(main.js)
     })
   })
   if (!Helper.opts['test'])
